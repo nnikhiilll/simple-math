@@ -1,0 +1,14 @@
+# main.py
+def Zilly(x):
+  return 2*x+1
+  
+def Floog(x):
+  return x*x-6*x+12
+  
+def Squawka(x):
+  return 2*Zilly(x)+3*Floog(x)
+  
+print(Zilly(1))
+print(Floog(1))
+print(Squawka(1))
+
